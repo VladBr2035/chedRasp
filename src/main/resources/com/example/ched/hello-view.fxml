@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #1C1C1C;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutY="60.0" prefHeight="340.0" prefWidth="600.0" style="-fx-background-color: #FFFFE0;">
+         <children>
+            <TextField fx:id="RaspPole" layoutX="29.0" layoutY="64.0" prefHeight="228.0" prefWidth="137.0" />
+            <Label layoutX="29.0" layoutY="14.0" text="Напишите расписание для 5 класса">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="zapisButton" layoutX="205.0" layoutY="64.0" mnemonicParsing="false" text="Сохранить на понедельник" />
+            <Button fx:id="zapisButton1" layoutX="205.0" layoutY="106.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="166.0" text="Сохранить на вторник" />
+            <Button fx:id="zapisButton11" layoutX="205.0" layoutY="145.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="166.0" text="Сохранить на среду" />
+            <Button fx:id="zapisButton111" layoutX="205.0" layoutY="189.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="166.0" text="Сохранить на четверг" />
+            <Button fx:id="zapisButton1111" layoutX="205.0" layoutY="231.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="166.0" text="Сохранить на пятницу" />
+            <Button fx:id="zapisButton11111" layoutX="205.0" layoutY="267.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="166.0" text="Сохранить на субботу" />
+         </children></AnchorPane>
+      <Label layoutX="213.0" layoutY="8.0" prefHeight="45.0" prefWidth="175.0" text="Расписание" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
